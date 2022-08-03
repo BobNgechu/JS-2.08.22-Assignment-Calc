@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc</title>
+    <script src="calc.js" defer></script>
+    <link rel="stylesheet" href="calc.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container border py-5 h-75 bg-gradient bg-success">
+      <div class="col-md-6 offset-md-3 border p-4 bg-light mt-5">
+        <div class="container-fluid px-0">
+          <label for="input1">Enter your First Number</label>
+          <input
+            type="text"
+            class="form-control-plaintext border bg-body num1"
+          />
+        </div>
+        <div class="container-fluid mt-2 px-0">
+          <label for="input1">Enter your Second Number</label>
+          <input
+            type="text"
+            class="form-control-plaintext border bg-body num2"
+          />
+        </div>
+        <div class="container-fluid mt-2 text-center">
+          <button class="btn btn-outline-dark multiply">multiply</button>
+          <button class="btn btn-outline-dark divide">Divide</button>
+        </div>
+        <div class="container-fluid border py-3 mt-2 bg-body ans"></div>
+      </div>
+    </div>
+  </body>
+</html>
